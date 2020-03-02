@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="StarterSuite" parallel="none" verbose="3">
+
+
+<listeners>
+<listener class-name="com.hbsp.analyzer.AnnotationTransformer"/>
+<listener class-name="com.hbsp.extentreports.ExtentReportListener"/>
+</listeners>
+
+
+<!-- Start First Test -->
+  <test name="Facebook test Chrome" parallel="none" thread-count="1">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hbsp.mytests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <!-- End First Test -->
+  
+  
+ 
+</suite> <!-- Suite -->

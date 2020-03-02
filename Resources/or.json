@@ -1,0 +1,44 @@
+{
+    "loginpage": {
+      "username": {
+        "key": "id",
+        "value": "email"
+      },
+      "password": {
+        "key": "id",
+        "value": "pass"
+      },
+      "loginbutton": {
+        "key": "id",
+        "value": "loginbutton"
+      },
+      "firstname": {
+        "key": "xpath",
+        "value": "//input[@name='firstname']"
+      },
+      "lastname": {
+        "key": "xpath",
+        "value": "//input[@name='lastname']"
+      },
+      "regemail": {
+        "key": "xpath",
+        "value": "//input[@name='reg_email__']"
+      },
+      "regpass": {
+        "key": "xpath",
+        "value": "//input[@name='reg_passwd__']"
+      },
+      "sexfemale": {
+        "key": "xpath",
+        "value": "//input[@value='1']"
+      },
+      "sexmale": {
+        "key": "xpath",
+        "value": "//input[@value='2']"
+      },
+      "submitbutton": {
+        "key": "xpath",
+        "value": "//button[@name='websubmit']"
+      }
+    }
+}

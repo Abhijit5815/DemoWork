@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="StarterSuite" duration-ms="24177" started-at="2020-02-25T10:21:39 IST" finished-at="2020-02-25T10:22:03 IST">
+    <groups>
+    </groups>
+    <test name="Facebook test Chrome" duration-ms="24177" started-at="2020-02-25T10:21:39 IST" finished-at="2020-02-25T10:22:03 IST">
+      <class name="com.hbsp.mytests.LoginTest">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.hbsp.mytests.LoginTest@53f65459]" name="setUpTest" is-config="true" duration-ms="15526" started-at="2020-02-25T10:21:39 IST" finished-at="2020-02-25T10:21:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="doLoginTest()[pri:1, instance:com.hbsp.mytests.LoginTest@53f65459]" name="doLoginTest" duration-ms="7801" started-at="2020-02-25T10:21:55 IST" finished-at="2020-02-25T10:22:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hbsp.mytests.LoginTest@53f65459]" name="teardown" is-config="true" duration-ms="794" started-at="2020-02-25T10:22:02 IST" finished-at="2020-02-25T10:22:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.hbsp.mytests.LoginTest -->
+    </test> <!-- Facebook test Chrome -->
+  </suite> <!-- StarterSuite -->
+</testng-results>

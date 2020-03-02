@@ -1,0 +1,14 @@
+{
+    "loginpage": {
+      "username":"id-email",
+      "password":"id-pass",
+      "loginbutton":"id-loginbutton",
+      "firstname":"xpath-//input[@name='firstname']",
+      "lastname":"xpath-//input[@name='lastname']",
+      "regemail":"xpath-//input[@name='reg_email__']",
+      "regpass":"xpath-//input[@name='reg_passwd__']",
+      "sexfemale":"xpath-//input[@value='1']",
+      "sexmale":"xpath-//input[@value='2']",
+      "submitbutton":"xpath-//button[@name='websubmit']"
+    }
+}
